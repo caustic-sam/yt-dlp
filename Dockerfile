@@ -11,3 +11,5 @@ WORKDIR /downloads
 
 # Default command (you can override in docker-compose)
 ENTRYPOINT ["yt-dlp"]
+
+RUN echo "Build context:" && ls -al

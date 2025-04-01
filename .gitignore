@@ -94,6 +94,8 @@ updates_key.pem
 *.stackdump
 uv.lock
 
+downloads/
+
 # Generated
 AUTHORS
 README.txt
